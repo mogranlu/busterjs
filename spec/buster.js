@@ -4,11 +4,12 @@ config["My tests"] = {
     env: "browser",        // or "node"
     rootPath: "../",
     sources: [
+	"src/**/*.js"
       //  "lib/mylib.js", // Paths are relative to config file
       //  "lib/**/*.js"   // Glob patterns supported
     ],
     tests: [
-        "test/*-test.js"
+        "test/*.js"
     ]
 }
 
