@@ -5,8 +5,7 @@ config["My tests"] = {
     rootPath: "../",
     sources: [
 	"src/**/*.js"
-      //  "lib/mylib.js", // Paths are relative to config file
-      //  "lib/**/*.js"   // Glob patterns supported
+	//  "lib/**/*.js"   // Glob patterns supported
     ],
     tests: [
         "test/*.js"
